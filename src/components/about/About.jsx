@@ -27,7 +27,7 @@ const About = () => {
           <div className="about__left">
             <p>
               <span className="about__dropcap">F</span>
-              ull-stack web developer and B.Tech student focused on building
+              Full-stack web developer and B.Tech student focused on building
               modern, responsive, and reliable web applications. I enjoy
               transforming ideas into real products, creating seamless digital
               experiences that combine clean design with efficient functionality
