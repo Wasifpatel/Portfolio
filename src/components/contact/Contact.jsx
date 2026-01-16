@@ -56,7 +56,7 @@ const Contact = () => {
 
               <a
                 href="https://api.whatsapp.com/send?phone=919175125003&text=Hello, more information!"
-                className="contact__button" target="_blank"
+                className="contact__button" target="_blank" rel="noopener noreferrer"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
