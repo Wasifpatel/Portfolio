@@ -1,0 +1,99 @@
+.section {
+  padding: 6rem 0; /* top-bottom spacing */
+}
+
+.experience__wrapper {
+  max-width: 1100px;  /* controls width */
+  margin: 0 auto;     /* center horizontally */
+  padding: 0 1.5rem;  /* left-right breathing space */
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+
+.experience {
+  padding: 4rem 0;
+  color: #000000;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.section__title span {
+  color: #a855f7;
+}
+
+.experience__container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.experience__left {
+  max-width: 70%;
+}
+
+.experience__role {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.experience__company {
+  color: #a855f7;
+  font-weight: 500;
+  display: block;
+  margin: 0.3rem 0 1rem;
+}
+
+.experience__description {
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experience__tags span {
+  background: #1f1f1f;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #bdbdbd;
+}
+
+.experience__right {
+  text-align: right;
+  min-width: 180px;
+}
+
+.experience__date {
+  display: block;
+  font-weight: 500;
+}
+
+.experience__type {
+  color: #000000;
+  font-size: 0.9rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
