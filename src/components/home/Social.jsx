@@ -3,15 +3,15 @@ import "./social.css";
 const Social = () => {
   return (
     <div className="home__social">
-      <a href="https://www.linkedin.com/in/wasif-patel/" className="home__social-icon" target="_blank">
+      <a href="https://www.linkedin.com/in/wasif-patel/" className="home__social-icon" target="_blank" rel="noopener noreferrer">
       <i class='bx bxl-linkedin' ></i>
       </a>
 
-      <a href="https://x.com/wasifpateL_" className="home__social-icon" target="_blank">
+      <a href="https://x.com/wasifpateL_" className="home__social-icon" target="_blank" rel="noopener noreferrer">
         <i class="uil uil-twitter"></i>
       </a>
 
-      <a href="https://github.com/Wasifpatel" className="home__social-icon" target="_blank">
+      <a href="https://github.com/Wasifpatel" className="home__social-icon" target="_blank" rel="noopener noreferrer">
         <i class="uil uil-github-alt"></i>
       </a>
     </div>
